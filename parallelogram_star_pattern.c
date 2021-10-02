@@ -1,14 +1,4 @@
 #include <stdio.h>
-void stared(int a, int b);
-
-int main(void) {
-  int r, c;
-  printf("Enter the number of rows\n");       //asking user for number of rows
-  scanf("%d",&r);        //saving number of rows in a variable r
-  printf("Enter the number of columns\n");       //asking user for number of columns
-  scanf("%d",&c);         //saving number of columns in a variable c
-  stared(r, c);
-}
 
 void stared(int a, int b) {
   for (int i = 0; i < b; i++) {
